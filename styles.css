@@ -1,2 +1,23 @@
-
-/* Your CSS Code here. */
+body{
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:space-between;
+}
+div{
+	width:100px;
+	height:100px;
+	
+}
+.one{
+	background-color:red;
+	order:1;
+}
+.two{
+	background-color:blue;
+	order:1;
+}
+.three{
+	background-color:green;
+	
+}
